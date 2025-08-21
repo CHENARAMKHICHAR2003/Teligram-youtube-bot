@@ -4,9 +4,9 @@ from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 # ==== CONFIG ====
-API_ID = int(os.getenv("API_ID", 123456))       # my.telegram.org se lo
-API_HASH = os.getenv("API_HASH", "")  # my.telegram.org se lo
-BOT_TOKEN = os.getenv("BOT_TOKEN", "")  # BotFather se lo
+API_ID = int(os.getenv("API_ID", 27498866))       # my.telegram.org se lo
+API_HASH = os.getenv("API_HASH", "96fbb6ad2e11ab04e83ca09ef3f42455")  # my.telegram.org se lo
+BOT_TOKEN = os.getenv("BOT_TOKEN", "7242497051:AAEc9WhkZgahtMjUygbXtMK51t6s3wvAg3c")  # BotFather se lo
 # ================
 
 app = Client("youtube_bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
